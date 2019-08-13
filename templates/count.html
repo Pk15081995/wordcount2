@@ -1,0 +1,11 @@
+<h1>Your text </h1>
+<a href="{% url 'homepage' %}">back to homepage</a><br><br>
+{{ deepak }}
+<hr>
+
+<h2>Total words</h2>
+total wrds={{ total }}
+<hr>
+{% for word,value in words %}
+{{ word }}={{value}}
+{% endfor %}
